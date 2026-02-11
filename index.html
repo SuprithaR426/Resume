@@ -5,86 +5,150 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Supritha Ramesha - Resume</title>
 
-  <!-- Google Font (Required for ITMD 541) -->
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <header>
-    <h1>Supritha Ramesha</h1>
-    <h2>Aspiring Web Developer</h2>
-    <nav>
-      <a href="mailto:supritha@example.com">Email</a>
-      <a href="https://github.com/SuprithaR426" target="_blank">GitHub</a>
-      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-    </nav>
-  </header>
+  <div class="container">
 
-  <main>
-
-    <section>
-      <h2>Summary</h2>
-      <p>
-        Motivated graduate student with a strong interest in web development and modern
-        frontend technologies. Passionate about building clean, accessible, and
-        responsive web interfaces.
-      </p>
-    </section>
-
-    <section>
-      <h2>Education</h2>
-      <p>
-        Master’s in Information Technology and Management<br>
-        Illinois Institute of Technology — Expected Graduation: May 2027
-      </p>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>Git & GitHub</li>
-        <li>Responsive Design</li>
-        <li>Team Collaboration</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Experience</h2>
-      <article>
-        <h3>Academic Project</h3>
-        <p>
-          Designed and built static web pages using HTML and CSS as part of coursework.
-          Focused on semantic structure, accessibility, and clean layouts.
-        </p>
-      </article>
-    </section>
-
-    <section>
-      <h2>Projects</h2>
-      <article>
-        <h3>Personal Resume Website</h3>
-        <p>
-          Created a responsive resume website using only HTML and CSS and deployed it
-          using GitHub Pages.
-        </p>
-        <a href="https://github.com/SuprithaR426/Resume" target="_blank">
-          View on GitHub
-        </a>
-
-        <!-- Image required by assignment -->
+    <!-- HEADER -->
+    <header>
+      <div class="header-left">
+        <h1>Supritha Ramesha</h1>
+        <h2>Aspiring Data & Web Professional</h2>
+        <nav>
+          <a href="mailto:supritha@example.com">Email</a>
+          <a href="https://github.com/SuprithaR426" target="_blank">GitHub</a>
+          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </nav>
+      </div>
+      <div class="header-right">
         <img src="assets/profile.jpg" alt="Professional headshot of Supritha Ramesha">
-      </article>
-    </section>
+      </div>
+    </header>
 
-  </main>
+    <main>
 
-  <footer>
-    <p>© 2026 Supritha Ramesha | Hosted on GitHub Pages</p>
-  </footer>
+      <!-- SUMMARY -->
+      <section class="card">
+        <h2>Summary</h2>
+        <p>
+          Graduate student in Information Technology and Management with professional experience
+          in data analysis, SQL development, and cross-functional collaboration. Passionate about
+          building data-driven solutions and clean, responsive web applications.
+        </p>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="card">
+        <h2>Education</h2>
+        <p>
+          <strong>Master’s in Information Technology and Management</strong><br>
+          Illinois Institute of Technology — Expected May 2027
+        </p>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="card">
+        <h2>Skills</h2>
+        <ul class="skills-grid">
+          <li>HTML5 & CSS3</li>
+          <li>SQL</li>
+          <li>Python</li>
+          <li>Git & GitHub</li>
+          <li>Data Analysis</li>
+          <li>Responsive Design</li>
+        </ul>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="card">
+        <h2>Experience</h2>
+
+        <article>
+          <h3>Associate Implementation Engineer</h3>
+          <p><strong>E2open LLC, India</strong> | Jul 2023 – Jun 2025</p>
+          <ul>
+            <li>Analyzed large supply chain and demand planning datasets to identify trends and optimization opportunities.</li>
+            <li>Developed advanced SQL queries to extract, transform, and validate data for dashboards and client reporting.</li>
+            <li>Delivered data-driven insights to stakeholders, improving operational decision-making and performance tracking.</li>
+            <li>Collaborated with cross-functional teams to solve performance and optimization challenges.</li>
+          </ul>
+        </article>
+
+        <article style="margin-top: 20px;">
+          <h3>Developer Trainee Intern</h3>
+          <p><strong>Hebbale Labs Pvt. Ltd., India</strong> | Feb 2023 – May 2023</p>
+          <ul>
+            <li>Supported backend development through SQL queries and data validation.</li>
+            <li>Used Python and SQL for testing, debugging, and workflow verification.</li>
+            <li>Contributed to Agile development and documentation of technical findings.</li>
+          </ul>
+        </article>
+
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="card">
+        <h2>Projects</h2>
+
+        <article class="project">
+          <div class="project-text">
+            <h3>Vulnerability Detection System (Python)</h3>
+            <p>
+              Developed a machine learning-based system to detect device vulnerabilities and
+              predict potential attack patterns, strengthening cybersecurity monitoring and
+              proactive threat assessment.
+            </p>
+          </div>
+        </article>
+
+        <article class="project" style="margin-top: 20px;">
+          <div class="project-text">
+            <h3>Human Activity Tracking (MATLAB)</h3>
+            <p>
+              Built an activity recognition model using Support Vector Machine (SVM) on the
+              KTH dataset to classify actions such as walking, sitting, and running with
+              high accuracy.
+            </p>
+          </div>
+        </article>
+
+        <article class="project" style="margin-top: 20px;">
+          <div class="project-text">
+            <h3>Hologram with Speech Synthesis for Museums</h3>
+            <p>
+              Integrated speech-to-text technology with Raspberry Pi and a 3D hologram system
+              to create an interactive museum experience that dynamically responds to visitors.
+            </p>
+          </div>
+        </article>
+
+        <article class="project" style="margin-top: 20px;">
+          <div class="project-text">
+            <h3>Personal Resume Website</h3>
+            <p>
+              Designed and deployed a responsive resume website using semantic HTML, CSS,
+              Flexbox, and Grid. Published via GitHub Pages.
+            </p>
+            <a href="https://github.com/SuprithaR426/Resume" target="_blank">View on GitHub</a>
+          </div>
+        </article>
+
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2026 Supritha Ramesha | Hosted on GitHub Pages</p>
+    </footer>
+
+  </div>
 
 </body>
 </html>
